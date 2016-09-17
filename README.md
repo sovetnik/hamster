@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+  This simple app is mail sender interface
 
 * Ruby version
 
+    2.3.1
 * System dependencies
 
+    Redis, Sidekiq
 * Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
+    bundle install
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+    foreman start
 
-* ...
+
+http://localhost:3000/rails/mailers/delivery_mailer/personal_mail

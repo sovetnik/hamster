@@ -1,0 +1,7 @@
+= bootstrap_form_tag url: '/start' do |f|
+
+    = f.text_field :head, label: 'Заголовок письма'
+    = f.text_area :body, class: 'wysihtml5', label: 'Текст письма'
+    = f.file_field :attachment, label: 'Картинка для привлечения внимания'
+
+    = f.submit 'Отправить', class: 'btn btn-success btn-sm'

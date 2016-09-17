@@ -1,0 +1,5 @@
+h2 = @message.head
+h3 = "Hello, #{@addressee.name}!"
+= image_tag attachments[@message.image].url,
+  style: 'float: left; margin: 0 20px 20px 0;'
+= simple_format(@message.body)

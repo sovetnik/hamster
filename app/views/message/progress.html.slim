@@ -1,0 +1,7 @@
+.progress
+  .progress-bar.progress-bar-striped.active role="progressbar" style="width: 0%"
+
+h3 = @message.head
+img src= @message.image_url style= 'float: left; margin: 0 20px 20px 0;'
+= simple_format(@message.body)
+
